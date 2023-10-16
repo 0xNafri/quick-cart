@@ -3,7 +3,7 @@ import { getDatabase, ref, push, onValue, remove } from "https://www.gstatic.com
 
 //Firebase credentials
 const appSettings = {
-    databaseURL: "https://quick-cart-9316c-default-rtdb.asia-southeast1.firebasedatabase.app/"
+    databaseURL: "https://quick-cart-dbd51-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 const app = initializeApp(appSettings)
 const database = getDatabase(app)
